@@ -415,7 +415,6 @@ class MusicBot(commands.Cog):
 
         if cmd is None:
             self.embedAddField(embed,name='Music Commands',value='play, queue, q, pause, resume, playall, shuffle, volume, vol, current, playing, np, skip, next')
-            self.embedAddField(embed,name='PlayList commands',value='playlist, playlists, playlist, playlist save, playlist add, playlist remove')
             self.embedAddField(embed,name='Additional commands',value='echo, hello, ping, help')
             embed.set_footer(text=f'use {self.cmdPrefix}help <command> for better description')
 
